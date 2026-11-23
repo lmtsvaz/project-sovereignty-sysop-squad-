@@ -1,7 +1,7 @@
 # Projeto Architectural Kata — Project Sovereignty (Sysop Squad)
 
-**Disciplina:** Arquitetura de Software |  Engenharia de Software  
-**Professor:** Sidney Leandro da Silva | **Turma:** Segunda-feira | **Sprint / Entrega:** Sprint 4 - Final do Projeto por Equipes
+**Disciplina:** Arquitetura de Software | **Período:** 6º Período — Engenharia de Software  
+**Professor:** Sidney Leandro da Silva | **Turma:** Segunda-feira | **Sprint:** Sprint 4 - Final do Projeto por Equipes
 
 ---
 

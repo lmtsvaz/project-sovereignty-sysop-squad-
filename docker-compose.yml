@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: sysop-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: sysop
+      RABBITMQ_DEFAULT_PASS: sysop_secret
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: sysop-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: sysop_tickets
+      POSTGRES_USER: sysop
+      POSTGRES_PASSWORD: sysop_secret
+
+  redis:
+    image: redis:7-alpine
+    container_name: sysop-redis
+    ports:
+      - "6379:6379"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: sysop-qdrant
+    ports:
+      - "6333:6333"
