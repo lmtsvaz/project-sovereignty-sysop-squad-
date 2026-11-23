@@ -1,6 +1,5 @@
 # Checklist de Code Review & Governança Arquitetural (GitHub PR Template)
 
-> **Instruções para os Alunos:** Copie todo o conteúdo deste arquivo e salve em `.github/PULL_REQUEST_TEMPLATE.md` na raiz do repositório da sua equipe no GitHub. Assim, toda vez que alguém abrir um Pull Request (PR), este checklist aparecerá automaticamente para ser preenchido e verificado pelos pares e pelo líder da equipe antes do *merge*.
 
 ---
 
